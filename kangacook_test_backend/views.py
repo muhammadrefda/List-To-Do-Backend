@@ -5,6 +5,10 @@ from django.http import HttpResponse
 from django.contrib.auth.models import User
 from rest_framework.response import Response
 from rest_framework.decorators import api_view, permission_classes
+from rest_framework.views import APIView
+from rest_framework_simplejwt.tokens import RefreshToken
+from rest_framework.permissions import AllowAny
+
 
 
 @api_view(['POST'])
@@ -42,3 +46,17 @@ class TodoDetailView(generics.RetrieveUpdateDestroyAPIView):
     def get_queryset(self):
         return Todo.objects.filter(user=self.request.user)
 
+class ForgetTokenView(APIView):
+    permission_classes = [AllowAny]
+    def post(self, request):
+        try:
+            refresh_token = request.data.get("refresh_token")
+            if not refresh_token:
+                return Response({"error": "Refresh token is required."}, status=status.HTTP_400_BAD_REQUEST)
+
+            token = RefreshToken(refresh_token)
+            token.blacklist()  # Ensure this method exists now
+
+            return Response(status=status.HTTP_205_RESET_CONTENT)
+        except Exception as e:
+            return Response({"error": str(e)}, status=status.HTTP_400_BAD_REQUEST)
