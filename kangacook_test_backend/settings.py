@@ -39,8 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework_simplejwt',
-    'kangacook_test_backend',
+    'kangacook_test_backend'
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
