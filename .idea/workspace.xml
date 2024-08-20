@@ -1,33 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8c8cf69-d193-4082-bf3c-e315f7a62a26" name="Changes" comment="" />
+    <list default="true" id="e8c8cf69-d193-4082-bf3c-e315f7a62a26" name="Changes" comment="work in progress">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kangacook_test_backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/kangacook_test_backend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kangacook_test_backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/kangacook_test_backend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kangacook_test_backend/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/kangacook_test_backend/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "muhammadrefda"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/muhammadrefda/kangacook_test_backend.git",
+    "accountId": "ac3c96a2-f7bf-4b0a-ae80-b1eca45da793"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
   <component name="ProjectId" id="2kvZkCqScAq0908IX0ZcGboFb0b" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Django Server.kangacook_test_backend.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "git-widget-placeholder": "development",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="kangacook_test_backend" type="Python.DjangoServer" factoryName="Django server">
+      <module name="kangacook_test_backend" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="kangacook_test_backend.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -44,8 +117,107 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724166152778</updated>
-      <workItem from="1724166282385" duration="19000" />
+      <workItem from="1724166282385" duration="14091000" />
     </task>
+    <task id="LOCAL-00001" summary="Add rest_framework and jwt">
+      <option name="closed" value="true" />
+      <created>1724167046133</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724167046133</updated>
+    </task>
+    <task id="LOCAL-00002" summary="create models and make migration">
+      <option name="closed" value="true" />
+      <created>1724167256734</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724167256734</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create serializers.py">
+      <option name="closed" value="true" />
+      <created>1724167648968</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724167648968</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create views.py">
+      <option name="closed" value="true" />
+      <created>1724167664436</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724167664436</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adjust Url based on project's need">
+      <option name="closed" value="true" />
+      <created>1724167704494</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724167704494</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add Super User">
+      <option name="closed" value="true" />
+      <created>1724167888527</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724167888527</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add homepage endpoint and register endpoint">
+      <option name="closed" value="true" />
+      <created>1724169905452</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724169905452</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adjust the migration">
+      <option name="closed" value="true" />
+      <created>1724173615953</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724173615953</updated>
+    </task>
+    <task id="LOCAL-00009" summary="work in progress">
+      <option name="closed" value="true" />
+      <created>1724175989069</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724175989069</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add rest_framework and jwt" />
+    <MESSAGE value="create models and make migration" />
+    <MESSAGE value="create serializers.py" />
+    <MESSAGE value="create views.py" />
+    <MESSAGE value="Adjust Url based on project's need" />
+    <MESSAGE value="Add Super User" />
+    <MESSAGE value="Add homepage endpoint and register endpoint" />
+    <MESSAGE value="Adjust the migration" />
+    <MESSAGE value="work in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="work in progress" />
   </component>
 </project>
