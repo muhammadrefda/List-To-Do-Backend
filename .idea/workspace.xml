@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8c8cf69-d193-4082-bf3c-e315f7a62a26" name="Changes" comment="Add homepage endpoint and register endpoint">
+    <list default="true" id="e8c8cf69-d193-4082-bf3c-e315f7a62a26" name="Changes" comment="Adjust the migration">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9375affe-a58f-4a7b-a186-57b55f9955cd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9375affe-a58f-4a7b-a186-57b55f9955cd.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kangacook_test_backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/kangacook_test_backend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kangacook_test_backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/kangacook_test_backend/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724166152778</updated>
-      <workItem from="1724166282385" duration="6397000" />
+      <workItem from="1724166282385" duration="8708000" />
     </task>
     <task id="LOCAL-00001" summary="Add rest_framework and jwt">
       <option name="closed" value="true" />
@@ -173,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724169905452</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adjust the migration">
+      <option name="closed" value="true" />
+      <created>1724173615953</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724173615953</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +207,7 @@
     <MESSAGE value="Adjust Url based on project's need" />
     <MESSAGE value="Add Super User" />
     <MESSAGE value="Add homepage endpoint and register endpoint" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add homepage endpoint and register endpoint" />
+    <MESSAGE value="Adjust the migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjust the migration" />
   </component>
 </project>
