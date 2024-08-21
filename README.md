@@ -21,8 +21,6 @@ The Postman collection for testing the API is provided in this repository. You c
 ### Collection Import Link:
 [Postman Collection Import Link](https://restless-firefly-21235.postman.co/workspace/New-Team-Workspace~aad623ce-767d-4e1e-a51e-9190b784bced/collection/7024852-cc1dfa40-59fe-4f7b-b574-4f58e91fbdb4?action=share&creator=7024852)
 
-### Collection JSON:
-You can download the collection JSON file [here](kangacook_backend_API.postman_collection.json).
 
 ## Setup Instructions
 
