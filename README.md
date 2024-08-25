@@ -1,4 +1,4 @@
-# Kangacook Backend API
+# ListToDo Backend API
 
 This repository contains the Django backend for the Kangacook project. The backend provides several API endpoints to manage tasks, including creating, updating, retrieving, and deleting tasks.
 
